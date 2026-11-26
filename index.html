@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b1220;
+            color: white;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #111c30;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h2 {
+            color: #55c2ff;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        nav a:hover {
+            color: #55c2ff;
+        }
+
+        section {
+            padding: 65px 10%;
+        }
+
+        .home {
+            min-height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .home h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .home h1 span {
+            color: #55c2ff;
+        }
+
+        h2 {
+            color: #55c2ff;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: #15243a;
+            padding: 22px;
+            border-radius: 12px;
+            margin: 15px 0;
+        }
+
+        .card h3 {
+            color: #55c2ff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #111c30;
+        }
+
+        .button {
+            display: inline-block;
+            background: #168bd0;
+            color: white;
+            padding: 10px 22px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>My Portfolio</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="home" id="home">
+    <h1>Hello, I'm <span>DUA BILAL!!</span></h1>
+    <h3>Software Engineering Student</h3>
+    <p>Welcome to my professional portfolio.</p>
+    <p>I am passionate about technology, programming,
+       and learning new skills.</p>
+    <a href="#about" class="button">Explore My Portfolio</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>I am a Software Engineering student interested
+        in programming, technology, and software development.
+        I enjoy learning new concepts and improving my
+        technical skills.</p>
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <div class="card">
+        <h3>BS Software Engineering</h3>
+        <p>University: Punjab Tianjin University Of Technology (PTUT)</p>
+        <p>Semester: First Semester</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="card">
+        <p>Python Programming</p>
+        <p>Microsoft Word</p>
+        <p>Microsoft PowerPoint</p>
+        <p>Basic Computer Skills</p>
+        <p>HTML and CSS (learning)</p>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="card">
+        <h3>Python Programming</h3>
+        <p>My beginner programming exercises and tasks.</p>
+    </div>
+    <div class="card">
+        <h3>Academic Projects</h3>
+        <p>My university assignments and practical work.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card">
+        <p>Email: your-email@example.com</p>
+        <p>GitHub: Add your GitHub profile link</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 My Portfolio | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
