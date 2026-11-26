@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -307,7 +306,7 @@
 </header>
 
 <section class="home" id="home">
-    <h1>Hello, I'm <span>Your Name</span></h1>
+    <h1>Hello, I'm <span>YDUA BILAL!!</span></h1>
     <h3>Software Engineering Student</h3>
     <p>Welcome to my professional portfolio.</p>
     <p>I am passionate about technology, programming,
@@ -336,7 +335,7 @@
 
     <div class="card">
         <h3>BS Software Engineering</h3>
-        <p>University: PTUT</p>
+        <p>University: Punjab Tianjin University Of Technologyu (PTUT)</p>
         <p>Semester: First Semester</p>
     </div>
 </section>
@@ -433,8 +432,7 @@
     <h2>Contact Me</h2>
 
     <div class="card">
-        <p>Email: your-email@example.com</p>
-        <p>GitHub: Add your GitHub profile link</p>
+        <p>Email: duabilal1710@gmail.com</p>
     </div>
 </section>
 
@@ -444,3 +442,4 @@
 
 </body>
 </html>
+
