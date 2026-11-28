@@ -432,8 +432,7 @@
     <h2>Contact Me</h2>
 
     <div class="card">
-        <p>Email: your-email@example.com</p>
-        <p>GitHub: Add your GitHub profile link</p>
+        <p>Email: duabilal1710@gmail.com</p>
     </div>
 </section>
 
